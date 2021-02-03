@@ -1,0 +1,90 @@
+
+
+ Map: Inetrchange
+
+-
+
+ Helmet: Galvion Caiman
+
+-
+
+ Body Armor: 6B13
+
+-
+
+ Primary Gun: Vepr Hunter
+
+-
+
+ Sidearm: APB
+
+-
+
+ Backpack: 3V G Paratus
+
+-
+
+ Tac-Rig: SOE Micro Rig
+
+-
+
+ Headphones: GSSh-01 active headset
+
+-
+
+ Time: Day
+
+-
+
+ GrenadeType: M67
+
+-
+
+ Grenade Amount: 1
+
+
+buh
+
+ Map: Inetrchange
+
+-
+
+ Helmet: Galvion Caiman
+
+-
+
+ Body Armor: 6B13
+
+-
+
+ Primary Gun: Vepr Hunter
+
+-
+
+ Sidearm: APB
+
+-
+
+ Backpack: 3V G Paratus
+
+-
+
+ Tac-Rig: SOE Micro Rig
+
+-
+
+ Headphones: GSSh-01 active headset
+
+-
+
+ Time: Day
+
+-
+
+ GrenadeType: M67
+
+-
+
+ Grenade Amount: 1
+
+

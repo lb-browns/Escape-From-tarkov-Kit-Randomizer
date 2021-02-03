@@ -5,16 +5,19 @@
 #include <string>
 #include <stdlib.h>
 #include <time.h>
+#include <fstream>
+#include <sstream>
+#include <stdio.h>
 
 #define elemsof(arr) ((sizeof(arr)/sizeof(arr[0])))
-
+using namespace std;
 
 
 int main()
 {
 	srand(time(NULL));
     
-	
+	std::string Output;
 
 	
 
@@ -70,14 +73,22 @@ int main()
 
 	std::string Map[] = { "Factory" , "Customs" , "Woods" , "Reserve" , "Shoreline" , "Inetrchange" , "Labs" };
 
+
+
 	std::string Headphones[] = { "Ops-Core FAST RAC Headset" , "Peltor ComTac 2 headset" , "MSA Sordin Supreme PRO-X/L active headphones" , "GSSh-01 active headset" 
 								, "Peltor Tactical Sport headset" , "Walker's Razor Digital headset" , "Walker's XCEL 500BT Digital headset" };
-	
-
-	
 
 
-	
+	std::string Time[] = { "Day" , "Night"};
+
+
+	std::string GrenadeType[] = { "F-1" , "M67" , "RGD-5" , "VOG-25" , "VOG-17" , "RGD-2B (Smoke Grenade)" , "Zarya" };
+
+
+	std::string GrenadeAmnt[] = { "1" , "2" , "3" , "4" , "5" , "6"};
+
+
+
 	int randomMapNum = rand() % elemsof(Map);
 	int randomHelmNum = rand() % elemsof(Helmets);
 	int randomBArmourNum = rand() % elemsof(BodyArmour);
@@ -86,12 +97,30 @@ int main()
 	int randomRigNum = rand() % elemsof(Rig);
 	int randomBackPackNum = rand() % elemsof(Backpack);
 	int randomHeadphoneNum = rand() % elemsof(Headphones);
+	int randomTimeNum = rand() % elemsof(Time);
+	int randomGrenadeTypeNum = rand() % elemsof(GrenadeType);
+	int randomGrenadeAmntNum = rand() % elemsof(GrenadeAmnt);
+
+	std::ostringstream os;
 	
 
-	std::cout << std::endl << std::endl << "Map: " << Map[randomMapNum] << std::endl << "Helmet: " << Helmets[randomHelmNum] << std::endl << "Body Armor: " << BodyArmour[randomBArmourNum] << std::endl << "Primary Gun: " <<  Gun[randomGunNum]
-			  << std::endl << "Sidearm: " <<  Sidearm[randomSidearmrNum] << std::endl << "Backpack: " << Backpack[randomBackPackNum] << std::endl << "Tac-Rig: " << Rig[randomRigNum] << std::endl 
-			  << "Headphones: " << Headphones[randomHeadphoneNum] << std::endl << std::endl;
+		   os << std::endl << std::endl << " Map: " << Map[randomMapNum] << std::endl << "\n-\n" << std::endl << " Helmet: " << Helmets[randomHelmNum] << std::endl << "\n-\n" << std::endl << " Body Armor: " << BodyArmour[randomBArmourNum] 
+		      << std::endl << "\n-\n" << std::endl << " Primary Gun: " <<  Gun[randomGunNum] << std::endl << "\n-\n" << std::endl 
+			  << " Sidearm: " <<  Sidearm[randomSidearmrNum] << std::endl << "\n-\n" << std::endl << " Backpack: " << Backpack[randomBackPackNum] 
+			  << std::endl << "\n-\n" << std::endl << " Tac-Rig: " << Rig[randomRigNum] << std::endl
+			  << "\n-\n" << std::endl << " Headphones: " << Headphones[randomHeadphoneNum] << std::endl << "\n-\n" << std::endl
+			  << " Time: " << Time[randomTimeNum] << std::endl << "\n-\n" << std::endl << " GrenadeType: " << GrenadeType[randomGrenadeTypeNum]
+			  << std::endl << "\n-\n" << std::endl << " Grenade Amount: " << GrenadeAmnt[randomGrenadeAmntNum] << "\n" << std::endl << std::endl;
+
+	   std::cout << os.str();
+
+	   Output = os.str();
+
+	   ofstream OutputFile("Kit.txt");
+	   OutputFile << Output;
+	   OutputFile.close();
 
 	system("pause");
+
 }
 
