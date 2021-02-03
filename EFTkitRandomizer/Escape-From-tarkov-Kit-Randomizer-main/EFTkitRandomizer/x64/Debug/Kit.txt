@@ -1,0 +1,48 @@
+
+
+ Map: Customs
+
+-
+
+ Helmet: ULACH IIIA
+
+-
+
+ Body Armor: LBT Slick
+
+-
+
+ Primary Gun: AKS-74UN
+
+-
+
+ Sidearm: None
+
+-
+
+ Backpack: Transformer Bag
+
+-
+
+ Tac-Rig: Belt A+Belt B
+
+-
+
+ Headphones: Peltor Tactical Sport headset
+
+-
+
+ Time: Day
+
+-
+
+ Grenade Type: M67
+
+-
+
+ Grenade Amount: 3
+
+
+ Estimated Price: 427418
+
+
