@@ -1,0 +1,3 @@
+﻿  EFTkitRandomizer.cpp
+D:\Escape-From-tarkov-Kit-Randomizer-main\Escape-From-tarkov-Kit-Randomizer-main\EFTkitRandomizer\EFTkitRandomizer\EFTkitRandomizer\EFTkitRandomizer.cpp(18,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  EFTkitRandomizer.vcxproj -> D:\Escape-From-tarkov-Kit-Randomizer-main\Escape-From-tarkov-Kit-Randomizer-main\EFTkitRandomizer\EFTkitRandomizer\Debug\EFTkitRandomizer.exe
