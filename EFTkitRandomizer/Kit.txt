@@ -1,0 +1,50 @@
+
+
+ Map: Reserve
+
+-
+
+ Helmet: TC 800
+
+-
+
+ Body Armor: 6B43 Zabralo
+
+-
+
+ Primary Gun: MP5
+
+-
+
+ Sidearm: None
+
+-
+
+ Backpack: Camelbak Tri-Zip
+
+-
+
+ Tac-Rig: None
+
+-
+
+ Headphones: None
+
+-
+
+ Time: Day
+
+-
+
+ Grenade Type: VOG-17
+
+-
+
+ Grenade Amount: 2
+
+
+ Estimated Price: 806442
+
+
+ Ammo Type: 4.6x30 AP SX
+
